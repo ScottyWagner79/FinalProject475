@@ -11,6 +11,7 @@ library(tidyquant)
 library(TTR)
 library(scales)
 library(lubridate)
+library(rsconnect)
 
 pedestrian <- pedestrian
 
@@ -111,4 +112,3 @@ output$add_plot <- renderPlot({
 }
 
 shinyApp(ui = ui, server = server)
-
